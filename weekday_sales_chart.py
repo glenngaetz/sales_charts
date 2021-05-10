@@ -97,4 +97,5 @@ for day in calendar.day_name:
     except statistics.StatisticsError:
         pass
 
+plt.suptitle(f'Weekday Instore Sales with Avg {start_date} - {end_date}', fontsize=16)
 plt.show()
